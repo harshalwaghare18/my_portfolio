@@ -1,0 +1,16 @@
+{
+  "name": "harshal-portfolio",
+  "version": "1.0.0",
+  "description": "Professional DevOps portfolio built with Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["devops", "portfolio", "nodejs", "express"],
+  "author": "Harshal Waghare",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
