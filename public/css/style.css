@@ -556,3 +556,61 @@ nav, section, footer {
 }
 
 
+
+
+
+
+/* ============ PROJECTS ============ */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background: rgba(15, 52, 96, 0.35);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    padding: 2rem;
+    border-radius: 12px;
+    transition: all 0.35s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+    border-color: var(--primary);
+}
+
+.project-card h3 {
+    color: var(--primary);
+    margin-bottom: 0.8rem;
+}
+
+.project-desc {
+    color: rgba(224, 230, 255, 0.85);
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-tags span {
+    background: rgba(0, 212, 255, 0.15);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    color: var(--primary);
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
