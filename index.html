@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshal Waghare - DevOps & AI Engineer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+
+    <!-- Live Background Canvas (ONLY ADDITION) -->
+    <canvas id="infra-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">HW</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="public/assets/Harshal_Waghare_Resume.pdf" download>Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Harshal Waghare</h1>
+            <p class="hero-subtitle">DevOps Engineer | Cloud Infrastructure | CI/CD Automation</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView()">
+                    Get In Touch
+                </button>
+
+                <a href="public/assets/Harshal_Waghare_Resume.pdf" download class="btn">
+                    Download Resume
+                </a>
+
+                <button class="btn" onclick="window.open('https://github.com/harshalwaghare18', '_blank')">
+                    View Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="experience-card scroll-animate">
+            <h3>SSP Technology</h3>
+            <div class="role">DevOps Engineer Trainee</div>
+            <div class="date">Jan 2025 – Present | Pune, Maharashtra</div>
+            <ul>
+                <li>Created and maintained Git repositories with clean branching strategy (DEV, TEST, UAT, PROD)</li>
+                <li>Set up and maintained Jenkins pipelines with automated build &amp; deployment processes</li>
+                <li>Integrated Jenkins with Maven and SonarQube for code quality checks</li>
+                <li>Developed Terraform scripts for AWS infrastructure provisioning (S3, EKS, RDS)</li>
+                <li>Built optimized Dockerfiles and managed container images in private registries</li>
+                <li>Created Kubernetes manifests for deployments with HPA scaling support</li>
+                <li>Configured Datadog dashboards and alerts for proactive monitoring</li>
+                <li>Responded to production incidents and contributed to troubleshooting</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category scroll-animate">
+                <h4>Programming &amp; Scripting</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Bash</span>
+                    <span class="skill-tag">PowerShell</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-category scroll-animate">
+                <h4>Cloud &amp; DevOps</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">Terraform</span>
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Jenkins</span>
+                    <span class="skill-tag">CI/CD</span>
+                </div>
+            </div>
+
+            <div class="skill-category scroll-animate">
+                <h4>Infrastructure &amp; Systems</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Linux/Unix</span>
+                    <span class="skill-tag">IAM</span>
+                    <span class="skill-tag">Networking</span>
+                    <span class="skill-tag">Infrastructure Automation</span>
+                </div>
+            </div>
+
+            <div class="skill-category scroll-animate">
+                <h4>Monitoring &amp; Tools</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">Datadog</span>
+                    <span class="skill-tag">Prometheus</span>
+                    <span class="skill-tag">Grafana</span>
+                    <span class="skill-tag">Git/GitHub</span>
+                    <span class="skill-tag">Jira</span>
+                </div>
+            </div>
+
+            <div class="skill-category scroll-animate">
+                <h4>Databases</h4>
+                <div class="skill-tags">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">PostgreSQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2 class="section-title">Personal Projects</h2>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card scroll-animate">
+            <h3>DevOps Portfolio Website</h3>
+            <p class="project-desc">
+                Node.js + Express based portfolio deployed with static asset handling,
+                CI-ready structure, and cloud-friendly setup.
+            </p>
+
+            <div class="project-tags">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://harshalwaghare18.github.io/Node.js-Portfolio/" target="_blank" class="btn">
+                    Live Demo
+                </a>
+                <a href="https://github.com/harshalwaghare18/Node.js-Portfolio" target="_blank" class="btn btn-primary">
+                    GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+         <div class="project-card scroll-animate">
+    <h3>AI Math Mentor</h3>
+    <p class="project-desc">
+        Multi-agent RAG math solver using Streamlit, Groq LLM, and ChromaDB.
+        Solves JEE problems via text/image/audio with 1.4s pipeline.
+    </p>
+
+    <div class="project-tags">
+        <span>Streamlit</span>
+        <span>Groq LLM</span>
+        <span>ChromaDB</span>
+        <span>RAG</span>
+        <span>Python</span>
+    </div>
+
+    <div class="project-links">
+        <a href="https://ai-math-mentor-yaceeram77xrmobfiyr2mk.streamlit.app/" target="_blank" class="btn">
+            Live Demo
+        </a>
+        <a href="https://github.com/harshalwaghare18/ai-math-mentor" target="_blank" class="btn btn-primary">
+            GitHub
+        </a>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+    
+    <!-- Publications Section -->
+    <section id="publications">
+        <h2 class="section-title">Publications &amp; Research</h2>
+        
+        <div class="publication-card scroll-animate">
+            <h4>Unmasking Attacker Identity Behind The VPN</h4>
+            <div class="conference">5th International Conference on Advances in AI for Biomedical Instrumentation Electronics &amp; Computing (ICABEC-2023)</div>
+            <div class="year">December 2023</div>
+        </div>
+
+        <div class="publication-card scroll-animate">
+            <h4>Heart Disease Prediction Using Deep Learning Approaches</h4>
+            <div class="conference">ICCSS 2025, D.Y. Patil College of Engineering, Akurdi</div>
+            <div class="year">May 2025</div>
+        </div>
+
+        <div class="publication-card scroll-animate">
+            <h4>Fruit Quality Monitoring System Using Machine Learning and Internet of Things</h4>
+            <div class="conference">ICCSS 2025, D.Y. Patil College of Engineering, Akurdi</div>
+            <div class="year">2025</div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2 class="section-title">Education </h2>
+        
+        <div class="experience-card scroll-animate" style="margin-bottom: 1.5rem;">
+            <h3>B.Tech - Computer Engineering</h3>
+            <div class="role">Shri Vile Parle Kelavani Mandal's Institute of Technology, Dhule</div>
+            <div class="date">2020 – 2024 | CGPA: 7.81</div>
+        </div>
+
+        <div class="experience-card scroll-animate" style="margin-bottom: 1.5rem;">
+            <h3>12th - Science</h3>
+            <div class="role">Jai Hind Junior College, Dhule</div>
+            <div class="date">2018 – 2020 | Percentage: 67.69%</div>
+        </div>
+
+        <div class="experience-card scroll-animate" style="margin-bottom: 1.5rem;">
+            <h3>10th - Science</h3>
+            <div class="role">Jai Hind High School, Dhule</div>
+            <div class="date">2018 | Percentage: 84%</div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+        <h2 class="section-title"> Certifications</h2>
+        
+        <div class="publication-card scroll-animate" style="margin-bottom: 1rem;">
+            <h4>Python 3.4.3 Spoken Tutorial</h4>
+            <div class="conference">IIT Bombay</div>
+        </div>
+
+        <div class="publication-card scroll-animate" style="margin-bottom: 1rem;">
+            <h4>Building Modern Python Applications on AWS</h4>
+        </div>
+
+        <div class="publication-card scroll-animate">
+            <h4>Develop and Deploy Windows Applications on AWS</h4>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <div class="contact-info">
+            <a href="tel:+917498083346" class="contact-link">
+                <span>📱</span>
+                <span>+91 7498083346</span>
+            </a>
+            <a href="mailto:harshalwaghare980@gmail.com" class="contact-link">
+                <span>✉️</span>
+                <span>harshalwaghare980@gmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/harshal-waghare-baa423209/" class="contact-link">
+                <span>💼</span>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/harshalwaghare18" class="contact-link">
+                <span>⚙️</span>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/harshalwaghare18" class="social-icon" title="GitHub">G</a>
+            <a href="https://www.linkedin.com/in/harshal-waghare-baa423209/" class="social-icon" title="LinkedIn">in</a>
+            <a href="mailto:harshalwaghare980@gmail.com" class="social-icon" title="Email">@</a>
+        </div>
+
+        <p style="color: rgba(224, 230, 255, 0.7); margin-top: 2rem; font-size: 0.95rem;">
+            I'm open to new opportunities in DevOps, Cloud Infrastructure, and AI/ML projects. Feel free to reach out!
+        </p>
+        
+        <br>
+        <br>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Harshal Waghare. Designed &amp; Built with passion. All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="public/js/main.js" defer></script>
+</body>
+</html>
